@@ -1,0 +1,12 @@
+@startuml
+class com.example.myapplication.MainActivity {
++ ActivityMainBinding binding
+-  mainViewModel
++ void onCreate(Bundle?)
+}
+
+
+
+
+androidx.appcompat.app.AppCompatActivity <|-- com.example.myapplication.MainActivity
+@enduml
